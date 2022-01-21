@@ -21,6 +21,15 @@
     font-weight: bold;
 }
 
+.image_github{
+    width:20px;
+}
+
+.github_link{
+    font-size: 20px;
+}
+
+
 .div_info_left_side,.div_info_right_side{
     /* border: 4px solid green; */
     height: 98vh;
@@ -48,7 +57,7 @@
     padding: 16px;
 }
 
-.div_email,.div_telefone,.div_skilss,._idiomas_p{
+.div_email,.div_telefone,.div_github,.div_skilss,._idiomas_p{
     padding: 16px;
 }
 
