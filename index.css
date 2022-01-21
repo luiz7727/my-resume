@@ -22,13 +22,17 @@
 }
 
 .image_github{
-    width:20px;
+    width:22px;
 }
 
 .github_link{
     font-size: 20px;
 }
 
+.div_github{
+    display:flex;
+    align-items:center;
+}
 
 .div_info_left_side,.div_info_right_side{
     /* border: 4px solid green; */
