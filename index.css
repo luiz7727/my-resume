@@ -68,7 +68,7 @@
 }
 
 
-.div_primeiro_certificado,.div_segundo_certificado,.div_faculdade{
+.div_primeiro_certificado,.div_segundo_certificado,.div_faculdade,.div_terceiro_certificado{
     display: flex;
     color: #6d737b;
     margin: 2% 0px 0px 0px;
@@ -78,7 +78,7 @@
 .certificado,.tempo_comeco,.tempo_fim{
     color:#5c626b;
 }
-.certificado_responsive_web,.certificado_algoritmo{
+.certificado_responsive_web,.certificado_algoritmo,.certificado_docker{
     color: #363d49;
     font-weight: bolder;
     margin: 0px 0px 0px 4.8%;
