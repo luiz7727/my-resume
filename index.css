@@ -25,11 +25,21 @@
     width:22px;
 }
 
-.github_link{
+.github_link,.linkedin_link{
     font-size: 20px;
 }
 
-.div_github{
+.icon_linkedin{
+    width: 4%;
+    margin: 10px 0 10px 16px;
+}
+
+.linkedin_link,.github_link{
+    margin: 0 0 0 10px;
+}
+
+
+.div_github,.div_linkedin{
     display:flex;
     align-items:center;
 }
@@ -65,6 +75,11 @@
     padding: 16px;
 }
 
+._idiomas_p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .div_info_right_side{
     padding: 16px;
@@ -81,7 +96,7 @@
 }
 
 
-.div_primeiro_certificado,.div_segundo_certificado,.div_faculdade,.div_terceiro_certificado{
+.div_primeiro_certificado,.div_segundo_certificado,.div_faculdade,.div_terceiro_certificado,.div_quarto_certificado{
     display: flex;
     color: #6d737b;
     margin: 2% 0px 0px 0px;
@@ -91,7 +106,7 @@
 .certificado,.tempo_comeco,.tempo_fim{
     color:#5c626b;
 }
-.certificado_responsive_web,.certificado_algoritmo,.certificado_docker{
+.certificado_responsive_web,.certificado_algoritmo,.certificado_docker,.certificado_spring{
     color: #363d49;
     font-weight: bolder;
     margin: 0px 0px 0px 4.8%;
@@ -102,3 +117,6 @@
     margin: 0px 0px 0px 60px;
 }
 
+p{
+    font-size: 21px;
+}
